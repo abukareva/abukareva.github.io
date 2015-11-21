@@ -1,23 +1,35 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anna Bukareva</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1" />
+    <link type="type/css" rel="stylesheet" href="style.css" />
+</head>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<body class="loading">
+    <!--<div class="loader">
+        <div id="logocontainer">
+            <div id="flip">
+                <div class="logofront"><img src="images/logo_small.png" width="70" height="70" alt="Logo Anna Bukareva"></div>
+                <div class="logoback"><img src="images/logo_small.png" width="70" height="70" alt="Logo Anna Bukareva"></div>
+            </div>
+        </div>
+    </div> -->
+	<section id="intro">
+        <div id="webdesigner"><span>Web Designer</span></div>
+        <div id="photographer"><span>Photographer</span></div>
+        <div id="logo"><img src="images/logo.png" alt="logo"></div>
+    </section>
+    <div id="openmenu"></div>
+    <nav>
+    	<div class="menu menuwork"><span class="label">Work</span></div>
+        <div class="menu menuabout"><span class="label">About</span></div>
+        <!--<div id="logosmall"><img src="design/logo_small.png" width="70" height="70" alt="Logo Anna Bukareva"></div>
+        <div id="close"></div>-->
+        <div class="menu menublog"><span class="label">Blog</span></div>
+        <div class="menu menucontact"><span class="label">Contact</span></div>
+    </nav>
+</body>
+</html>

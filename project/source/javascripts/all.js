@@ -5,7 +5,7 @@ $(function() {
 		var $nav = $('nav');
 		// var offset = $nav.offset();
 		// console.log($nav.offset());
-		if(scrollPosition > window.innerHeight - 3*$nav.height()) {
+		if(scrollPosition > window.innerHeight - $nav.height()) {
 			$nav.addClass('freeze');
 		} else {
 			$nav.removeClass('freeze');
@@ -22,6 +22,7 @@ $(function() {
 	// 	}
 	// })
 });
+
 
 //Events Calendar - Date Picker*********
 

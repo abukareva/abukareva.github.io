@@ -1,6 +1,0 @@
-require 'middleman-gh-pages'
-
-require 'bundler/gem_tasks'
-
-# Ignore errors about dirty builds (not recommended)
-ENV["ALLOW_DIRTY"] = "true"

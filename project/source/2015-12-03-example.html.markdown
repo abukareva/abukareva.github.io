@@ -5,3 +5,23 @@ tags: photography
 image: pgwork-wed2.jpg
 ---
 
+<!-- <div class="row">
+	<div class="col_6">
+		<div class="layout">
+  			<div><img src="../../../images/pgwork-wed2a.jpg" /></div>
+  		</div>
+  	</div>
+  	<div class="col_6 layout">
+  		<a href="annaskuba.portfoliobox.me">
+  		<img src="../../../images/model-yellow2.jpg" />
+  		<div>Modeling Portfolio</div></a>
+  	</div>
+</div> -->
+
+<div class="top">
+	<ul>
+  		<li>Photography Portfolio</li>
+  		<li><a href="annaskuba.portfoliobox.me">Modeling Portfolio</a></li>
+  		<li>Lighting Design Projects</li>
+  	</ul>
+</div>

@@ -1,0 +1,54 @@
+<nav>
+	<ul class="ul-menu">
+		<li class="menu work"><a href="#work">WORK</a></li>
+		<li class="menu blog">BLOG</li>
+		<li class="menu about"><a href="#about">ABOUT</a></li>
+		<li class="menu contact"><a href="/contact.html">CONTACT</a></li>
+	</ul>
+</nav>
+	<div id="maincover">
+		<div class="border">
+
+		</div>
+	</div>
+<div class="myname">
+	<h1>anna bukareva</h1>
+	<h2>web designer</h2>
+</div>
+<section class="container">
+	<div class="grid_bg">
+		<ul>
+ 		<% blog.articles.each do |article| %>
+ 			<li class="grid" id="work" style="background-image: url(images/<%= article.data.image%>)">
+ 			<a href="<%= article.url %>">
+ 			<div class="name"><%= article.data.title %></div>
+ 			</a>
+ 			</li>
+ 		<% end %>
+ 		</ul>
+ 		<div id="about">
+ 			<div class="row">
+				<div class="col_4 aboutme" style="background-color:#F7819F">
+					<h3>About me</h3>
+					<img src="../images/grid-aboutme.jpg" alt="Photo of Anna" class="profile-photo">
+				</div>
+				<div class="col_8 abouttext" style="background-color: #B45F04">
+					<p>I’ve learned nothing worth doing is easy. I’ve learned how to take pleasure for working for those things. I’m also not someone who likes to do it alone. It’s important to be a strong individual but it’s also a great joy to combine with other driven and talented people that have ideas I can learn from and contribute. I’m really passionate about making a difference in the world. That’s a big reason I changed my career from an electrical engineer to a web designer. I am now consulting for social impact companies and excited to build on the things that I've learned.</p>
+				</div>
+			</div>
+ 		</div>
+
+ 		<footer class="site-footer">
+    		<div class="icons">
+      			<ul class="social-links">
+        			<li><a class="icon-linkedin" target="_blank" href="https://www.linkedin.com/in/annabukareva"><i class="fa fa-linkedin fa-2x"></i></a></li>
+        			<li><a class="icon-ig" target="_blank" href="https://instagram.com/annaskuba"><i class="fa fa-instagram fa-2x"></i></a></li>
+        			<li><a class="icon-mail" target="_blank" href="mailto:annaskuba@gmail.com"><i class="fa fa-envelope-o fa-2x"></i></a></li>
+      			</ul>
+    		</div>
+  		</footer>
+
+ 	</div>
+</section>
+
+

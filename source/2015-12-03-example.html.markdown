@@ -21,7 +21,7 @@ image: pgwork-wed2.jpg
 <div class="top">
 	<ul>
   		<li>Photography Portfolio</li>
-  		<li><a href="annaskuba.portfoliobox.me">Modeling Portfolio</a></li>
+  		<li>Modeling Portfolio</li>
   		<li>Lighting Design Projects</li>
   	</ul>
 </div>
